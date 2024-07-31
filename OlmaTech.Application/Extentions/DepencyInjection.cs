@@ -24,6 +24,7 @@ namespace OlmaTech.Application.Extentions
 
             services.AddScoped<ICurrentUserService, CurrentUserService>();
             services.AddScoped<IFileService, FileService>();
+            services.AddSingleton<IEmailService, EmailService>();
             services.AddAutoMapper(typeof(MappingProfile));
             return services;
         }

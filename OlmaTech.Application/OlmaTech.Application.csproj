@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <Folder Include="Files\" />
-    <Folder Include="UseCases\AuthToDoList\Queries\" />
     <Folder Include="UseCases\CommonToDoList\Commands\" />
   </ItemGroup>
 

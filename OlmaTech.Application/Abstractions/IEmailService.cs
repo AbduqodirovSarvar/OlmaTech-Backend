@@ -8,7 +8,8 @@ namespace OlmaTech.Application.Abstractions
 {
     public interface IEmailService
     {
-        string GetHash(string password);
-        bool VerifyHash(string password, string paswordHash);
+        Task SendEmailAsync(string email, string subject, string body);
+        Task<bool> SendConfirmationCodeForResetPasswordAsync(string email);
+        bool CheckConfirmationCodeforResetPassword(string email, string confirmationCode);
     }
 }
