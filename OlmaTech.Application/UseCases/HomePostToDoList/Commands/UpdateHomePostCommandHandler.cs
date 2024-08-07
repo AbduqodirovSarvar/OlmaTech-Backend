@@ -33,7 +33,7 @@ namespace OlmaTech.Application.UseCases.HomePostToDoList.Commands
             homePost.TitleRu = request.TitleRu ?? homePost.TitleRu;
             homePost.TitleUz = request.TitleUz ?? homePost.TitleUz;
             homePost.TitleUzRu = request.TitleUzRu ?? homePost.TitleUzRu;
-            homePost.SubitleEn = request.SubitleEn ?? homePost.SubitleEn;
+            homePost.SubitleEn = request.SubtitleEn ?? homePost.SubitleEn;
             homePost.SubtitleRu = request.SubtitleRu ?? homePost.SubtitleRu;
             homePost.SubtitleUz = request.SubtitleUz ?? homePost.SubtitleUz;
             homePost.SubtitleUzRu = request.SubtitleUzRu ?? homePost.SubtitleUzRu;
