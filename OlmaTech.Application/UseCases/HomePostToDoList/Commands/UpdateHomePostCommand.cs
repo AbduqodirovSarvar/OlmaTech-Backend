@@ -22,7 +22,7 @@ namespace OlmaTech.Application.UseCases.HomePostToDoList.Commands
 
         // SubTitle
         public string? SubtitleUz { get; set; } = null;
-        public string? SubitleEn { get; set; } = null;
+        public string? SubtitleEn { get; set; } = null;
         public string? SubtitleRu { get; set; } = null;
         public string? SubtitleUzRu { get; set; } = null;
 
