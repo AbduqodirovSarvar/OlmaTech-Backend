@@ -115,7 +115,7 @@ namespace OlmaTech.Application.Services
             // HomePost -> HomePostViewModel
             CreateMap<HomePost, HomePostViewModel>()
                 // Subtitle
-                .ForPath(x => x.Subtitle.En, y => y.MapFrom(z => z.SubitleEn))
+                .ForPath(x => x.Subtitle.En, y => y.MapFrom(z => z.SubtitleEn))
                 .ForPath(x => x.Subtitle.Uz, y => y.MapFrom(z => z.SubtitleUz))
                 .ForPath(x => x.Subtitle.Ru, y => y.MapFrom(z => z.SubtitleRu))
                 .ForPath(x => x.Subtitle.Uzru, y => y.MapFrom(z => z.SubtitleUzRu))
